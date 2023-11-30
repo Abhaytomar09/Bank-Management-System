@@ -105,7 +105,7 @@ def existingAccountOperations(customer,username, password):
         elif(amount>customer[6]):
             print("Your entered amount is greater than the current balance. Invalid operation!!\n")
         elif(customer[6]-amount<500):
-            print("Your cannot withdraw Rs.",amount, "Minimum balance of Rs.500 is required. Invalid operation!!\n")
+            print(" Your cannot withdraw Rs.",amount, "Minimum balance of Rs.500 is required. Invalid operation!!\n")
         else:
             amount= customer[6]-amount
             mycursor.execute("update customer set Balance=%s where Username=%s and Password=%s",(amount,username,password))
