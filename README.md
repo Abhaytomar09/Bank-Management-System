@@ -1,4 +1,5 @@
 # Bank-Management-System
+#0.5=trans
 FLOW OF THE PROJECT
  Our project is based on BANK MANAGEMENT SYSTEM.The
 project consist of 3 different modules:
